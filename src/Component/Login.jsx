@@ -32,15 +32,15 @@ export default function LoginPage() {
       <p className='display-4' >LOG IN</p>
       {error && <p className="text-danger">{error}</p>} {/* Display error message */}
       <form className='login form-floating' onSubmit={handlesubmit}>
-        <div class="form-floating">
+        <div className="form-floating">
           
-          <input type="email" class="form-control" id="floatingInputGrid" aria-describedby="emailHelp" placeholder="name@example.com" ref={emailref}/>
+          <input type="email" className="form-control" id="floatingInputGrid" aria-describedby="emailHelp" placeholder="name@example.com" ref={emailref}/>
           <label htmlFor="email">Email address</label>
         </div>
         <br />
         <div class="form-floating">
           
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ref={passwordref}/>
+          <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" ref={passwordref}/>
           <label htmlFor="password">Password</label>
         </div>
         
